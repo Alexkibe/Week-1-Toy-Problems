@@ -56,3 +56,22 @@ This will output the following message to the console:
 
 
 You have received 4 demerit points.
+
+Salary Calculator
+This is a simple JavaScript program that calculates the net salary of an employee based on their basic salary, benefits, and various deductions.
+
+Variables
+The program defines two variables, basicSalary and benefits, which represent the employee's basic salary and benefits, respectively.
+
+Tax Rates and Deduction Rates
+The program also defines two arrays, taxRates and nhifDeductions, which contain the tax rates and NHIF deductions based on the employee's gross salary, respectively. In addition, the program sets the NSSF deduction rate as a constant.
+
+Calculations
+The program calculates the gross salary by adding the basic salary and benefits. It then calculates the tax (payee) deductions by iterating through the taxRates array and calculating the payee based on the employee's taxable income.
+
+The program also calculates the NHIF deductions by iterating through the nhifDeductions array and finding the appropriate deduction based on the employee's gross salary. Finally, the program calculates the NSSF deductions based on the gross salary and the NSSF deduction rate.
+
+The net salary is calculated by subtracting the total deductions (payee, NHIF, and NSSF) from the gross salary.
+
+Output
+The program outputs the gross salary, payee (tax), NHIF deductions, NSSF deductions, and net salary to the console.
